@@ -484,9 +484,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-bottom: 0px;
   margin-top: 0px;
   width: 264px;
-  margin-bottom: 16px;
 }
 /* Portfolio */
 .portfolio {
