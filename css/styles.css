@@ -488,6 +488,9 @@ body {
   margin-top: 0px;
   width: 264px;
 }
+.footer-social-text{
+  margin-bottom: 16px;
+}
 /* Portfolio */
 .portfolio {
   background-color: var(--main-bacground-color);
