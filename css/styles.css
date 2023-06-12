@@ -441,6 +441,7 @@ ul p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover {
   background-color: #31d0aa;
@@ -459,6 +460,7 @@ ul p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .footer-logo-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -469,6 +471,7 @@ ul p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -490,12 +493,9 @@ ul p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
   margin-top: 0px;
   width: 264px;
-}
-.footer-social-text{
-  margin-bottom: 16px;
 }
 /* Portfolio */
 .portfolio {
