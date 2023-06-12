@@ -459,7 +459,6 @@ ul p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .footer-logo-link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
@@ -491,15 +490,11 @@ ul p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-bottom: 16px;
   margin-top: 0px;
   width: 264px;
-  margin-bottom: 16px;
 }
-.footer-text {
-  margin-bottom: 16px;
-}
-
-.footer-social-text {
+.footer-social-text{
   margin-bottom: 16px;
 }
 /* Portfolio */
