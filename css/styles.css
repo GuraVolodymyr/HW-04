@@ -42,8 +42,7 @@ h3,
 h4,
 h5,
 h6,
-ul
-p {
+ul p {
   margin: 0;
 }
 /* Header */
@@ -55,7 +54,7 @@ p {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* LOGO */
@@ -398,7 +397,6 @@ p {
   fill: currentColor;
 }
 .customers-link:hover {
-  
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -472,7 +470,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
   margin-bottom: 16px;
   display: inline-block;
 }
@@ -498,12 +495,15 @@ p {
   width: 264px;
   margin-bottom: 16px;
 }
-.footer-social-text{
+.footer-text {
+  margin-bottom: 16px;
+}
+
+.footer-social-text {
   margin-bottom: 16px;
 }
 /* Portfolio */
 .portfolio {
-  
   padding-top: 96px;
   padding-bottom: 120px;
 }
