@@ -103,7 +103,6 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  text-decoration: none;
 
   display: block;
   padding-top: 24px;
@@ -116,7 +115,7 @@ p {
 .nav-list .link:hover,
 .nav-list .link:focus {
   color: var(--hover-color);
-  text-decoration: underline;
+  
 }
 /* Address */
 .address {
@@ -402,7 +401,6 @@ p {
   color: #404bbf;
 }
 .customers-link:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-color: #404bbf;
   color: #404bbf;
 }
@@ -427,6 +425,7 @@ p {
 .footer-socials {
   display: flex;
   gap: 16px;
+  padding: 0;
 }
 .footer-social-icon {
   fill: #f4f4fd;
@@ -434,6 +433,7 @@ p {
 .footer-part1 {
   margin-right: 120px;
 }
+
 .footer-social-link {
   width: 100%;
   height: 100%;
@@ -539,7 +539,6 @@ p {
 /* Portfolio-links-section */
 .portfolio-list .link {
   text-decoration: none;
-  list-style: none;
   display: block;
 }
 .portfolio-list {
@@ -560,14 +559,12 @@ p {
 .portfolio-card:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-.portfolio-link:hover {
+.portfolio-link:hover, .portfolio-link:focus
+ {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-link:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+
 .portfolio-card-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
