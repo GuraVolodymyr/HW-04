@@ -45,6 +45,7 @@ h6,
 ul,
 p {
   margin: 0;
+  padding: 0;
 }
 /* Header */
 .header-container {
@@ -425,7 +426,7 @@ p {
 .footer-socials {
   display: flex;
   gap: 16px;
-  padding: 0;
+  
 }
 .footer-social-icon {
   fill: #f4f4fd;
